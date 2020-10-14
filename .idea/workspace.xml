@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Entity/Customers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/Goods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/Orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TiaoBao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TiaoBao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +53,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RunManager">
+    <configuration name="Orders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TiaoBao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entity/Orders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Orders" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,7 +94,7 @@
       <updated>1601028383037</updated>
       <workItem from="1601028384949" duration="1493000" />
       <workItem from="1602669584787" duration="407000" />
-      <workItem from="1602675155278" duration="1687000" />
+      <workItem from="1602675155278" duration="6997000" />
     </task>
     <servers />
   </component>
@@ -80,9 +113,32 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="592" height="178" key="GridCell.Tab.0.bottom" timestamp="1602690145429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="592" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
+    <state width="592" height="178" key="GridCell.Tab.0.center" timestamp="1602690145429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="592" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
+    <state width="592" height="178" key="GridCell.Tab.0.left" timestamp="1602690145429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="592" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
+    <state width="592" height="178" key="GridCell.Tab.0.right" timestamp="1602690145429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="592" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
     <state x="387" y="95" key="SettingsEditor" timestamp="1602678183918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602678183918" />
+    <state x="715" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602682691130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="715" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602682691130" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TiaoBao$Orders.coverage" NAME="Orders Coverage Results" MODIFIED="1602690145421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
   </component>
 </project>
