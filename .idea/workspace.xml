@@ -16,15 +16,20 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Entity/Customers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/Goods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/Orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TiaoBao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TiaoBao.iml" afterDir="false" />
+    <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="&quot;add the most basic class&quot;">
+      <change afterPath="$PROJECT_DIR$/Entity/Cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Goods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +44,23 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hzynXVk5ujN1PkWV5psT3YD3XV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -94,8 +108,17 @@
       <updated>1601028383037</updated>
       <workItem from="1601028384949" duration="1493000" />
       <workItem from="1602669584787" duration="407000" />
-      <workItem from="1602675155278" duration="6997000" />
+      <workItem from="1602675155278" duration="7380000" />
+      <workItem from="1602731951328" duration="1402000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;add the most basic class&quot;">
+      <created>1602690921183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602690921184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,33 +129,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;add the most basic class&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add the most basic class&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="592" height="178" key="GridCell.Tab.0.bottom" timestamp="1602690145429">
+    <state width="592" height="178" key="GridCell.Tab.0.bottom" timestamp="1602691051902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
-    <state width="592" height="178" key="GridCell.Tab.0.center" timestamp="1602690145429">
+    <state width="592" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
+    <state width="592" height="178" key="GridCell.Tab.0.center" timestamp="1602691051902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
-    <state width="592" height="178" key="GridCell.Tab.0.left" timestamp="1602690145429">
+    <state width="592" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
+    <state width="592" height="178" key="GridCell.Tab.0.left" timestamp="1602691051902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
-    <state width="592" height="178" key="GridCell.Tab.0.right" timestamp="1602690145429">
+    <state width="592" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
+    <state width="592" height="178" key="GridCell.Tab.0.right" timestamp="1602691051902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602690145429" />
+    <state width="592" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
+    <state x="617" y="90" key="RollbackChangesDialog" timestamp="1602731956496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="90" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602731956496" />
     <state x="387" y="95" key="SettingsEditor" timestamp="1602678183918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602678183918" />
+    <state x="360" y="122" key="Vcs.Push.Dialog.v2" timestamp="1602690950362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="122" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602690950362" />
     <state x="715" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602682691130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
