@@ -245,7 +245,7 @@ class MysqldbHelper(psw, db):
                 return True
 
 
-
+'''
 if __name__ == "__main__":
     mydb = MysqldbHelper("1999", "test")
 
@@ -270,6 +270,7 @@ if __name__ == "__main__":
     #mydb.dropTable(table)
     #print(mydb.select(table + "1"))
     #print(mydb.isExistTable(table + "1"))
+    '''
 
 #         ┌─┐       ┌─┐
 #      ┌──┘ ┴───────┘ ┴──┐
