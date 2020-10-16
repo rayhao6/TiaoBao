@@ -2,11 +2,11 @@ import re
 import MySQLdb as mdb
 
 
-class MysqldbHelper(psw, db):
+class MysqldbHelper(object):
     """
     操作mysql数据库，基本方法
     """
-    def __init__(self , host="localhost", username="root", password=pwd, port=3306, database=db):
+    def __init__(self, host="localhost", username="root", password="1999", port=3306, database="test"):
         self.host = host
         self.username = username
         self.password = password
@@ -15,7 +15,8 @@ class MysqldbHelper(psw, db):
         self.con = None
         self.cur = None
         try:
-            self.con = mdb.connect(host=self.host, user=self.username, passwd=self.password, port=self.port, db=self.database)
+            self.con = mdb.connect(host=self.host, user=self.username, passwd=self.password, port=self.port,
+                                   db=self.database)
             # 所有的查询，都在连接 con 的一个模块 cursor 上面运行的
             self.cur = self.con.cursor()
         except:
@@ -189,7 +190,8 @@ class MysqldbHelper(psw, db):
                 params = {"name" : "caixinglong", "age" : "38"}
                 cond_dict = {"name" : "liuqiao", "age" : "18"}
                 mydb.update(table, params, cond_dict)
-                print: UPDATE test_mysqldb SET `name`='caixinglong',`age`='38' where `test_mysqldb`.`name`='liuqiao' and `test_mysqldb`.`age`='18' and  1=1
+                print: UPDATE test_mysqldb SET `name`='caixinglong',`age`='38' where `test_mysqldb`.`name`='liuqiao' and
+                 `test_mysqldb`.`age`='18' and  1=1
 
         """
         attrs_list = []
@@ -197,7 +199,7 @@ class MysqldbHelper(psw, db):
         for tmpkey, tmpvalue in attrs_dict.items():
             attrs_list.append("`" + tmpkey + "`" + "=" + "\'" + tmpvalue + "\'")
         attrs_sql = ",".join(attrs_list)
-        if cond_dict!='':
+        if cond_dict != '':
             for k, v in cond_dict.items():
                 if isinstance(v, str):
                     v = "\'" + v + "\'"
@@ -244,33 +246,38 @@ class MysqldbHelper(psw, db):
             else:
                 return True
 
-
+            
 '''
 if __name__ == "__main__":
-    mydb = MysqldbHelper("1999", "test")
-
+    # 创建一个对象
+    mydb = MysqldbHelper()
+    # 创建一个表
     table = 'test_mysqldb'
     attrs = {'name': 'varchar(200) DEFAULT NULL', 'age': 'int(11) DEFAULT NULL'}
     constraint = 'PRIMARY KEY(`id`)'
     print(mydb.creatTable(table, attrs, constraint))
-
+    # 插入
     params = {"name": "caixinglong", "age": "38"}
     mydb.insert(table, params)
+    # 读取
     print(mydb.select(table))
     print(mydb.select(table, fields=["name", "age"]))
     print(mydb.select(table, fields=["age", "name"]))
-    
+    # 删除
     key = ["id", "name", "age"]
     value = [[101, "liuqiao", "25"], [102, "liuqiao1", "26"], [103, "liuqiao2", "27"], [104, "liuqiao3", "28"]]
-    #mydb.insertMany(table, key, value)
+    # mydb.insertMany(table, key, value)
     mydb.delete(table, params)
+    # 更新
     cond_dict = {"name": "liuqiao", "age": "18"}
     mydb.update(table, cond_dict, params)
-    #mydb.deleteTable(table)
-    #mydb.dropTable(table)
-    #print(mydb.select(table + "1"))
-    #print(mydb.isExistTable(table + "1"))
-    '''
+    # 清空表
+    mydb.deleteTable(table)
+    # 删除表
+    mydb.dropTable(table)
+    # 判断是否存在表
+    print(mydb.isExistTable(table + "1"))
+'''
 
 #         ┌─┐       ┌─┐
 #      ┌──┘ ┴───────┘ ┴──┐
@@ -293,6 +300,8 @@ if __name__ == "__main__":
 #            │ ─┤ ─┤       │ ─┤ ─┤
 #            └──┴──┘       └──┴──┘
 #            神兽保佑       永无BUG!
+
+
 
 
 
