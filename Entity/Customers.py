@@ -10,7 +10,7 @@ class Customer:
     userName = ''
     realName = ''
     order = []
-    def __int__(self, customerId, phoneNum, sex, age, userName, realName):
+    def __init__(self, customerId, phoneNum, sex, age, userName, realName):
         self.age = age
         self.sex = sex
         self.phoneNum = phoneNum

@@ -11,7 +11,7 @@ class Cart:
     totalNum = 0
 
 
-    def __int__(self, place, time, num):
+    def __init__(self, place, time, num):
          self.createdTime = datetime.datetime.now().isoformat()
          self.totalNum = len(self.good)
          self.totalPrice = self.GetPrice()

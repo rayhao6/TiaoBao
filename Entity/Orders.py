@@ -12,7 +12,7 @@ class Order:
     totalNum = 0
 
 
-    def __int__(self,id, price,place, time, num):
+    def __init__(self,id, price,place, time, num):
          self.orderId = id
          self.orderPrice = price
          self.orderPlace = place
