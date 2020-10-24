@@ -19,21 +19,16 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="&quot;add some other classes&quot;">
-      <change afterPath="$PROJECT_DIR$/Entity/Factorys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TiaoBao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TiaoBao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Customers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Customers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Goods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Factorys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Factorys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bone-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.Goods">
@@ -142,7 +137,9 @@
       <workItem from="1602842332508" duration="6286000" />
       <workItem from="1602917602443" duration="668000" />
       <workItem from="1602985186710" duration="1948000" />
-      <workItem from="1602999309234" duration="4866000" />
+      <workItem from="1602999309234" duration="5474000" />
+      <workItem from="1603436618874" duration="1382000" />
+      <workItem from="1603547264974" duration="2205000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add the most basic class&quot;">
       <created>1602690921183</created>
@@ -158,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602734279979</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;">
+      <created>1603007210648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603007210649</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +179,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="origin/develop" />
                       </list>
                     </value>
                   </entry>
@@ -192,29 +196,46 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;add the most basic class&quot;" />
     <MESSAGE value="&quot;add some other classes&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add some other classes&quot;" />
+    <MESSAGE value="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="621" y="201" key="FileChooserDialogImpl" timestamp="1602917667715">
+    <state x="621" y="201" key="FileChooserDialogImpl" timestamp="1603547836885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="621" y="201" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602917667715" />
-    <state width="592" height="178" key="GridCell.Tab.0.bottom" timestamp="1602691051902">
+    <state x="621" y="201" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603547836885" />
+    <state width="1116" height="212" key="GridCell.Tab.0.bottom" timestamp="1603436626740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
-    <state width="592" height="178" key="GridCell.Tab.0.center" timestamp="1602691051902">
+    <state width="1116" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.center" timestamp="1603436626740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
-    <state width="592" height="178" key="GridCell.Tab.0.left" timestamp="1602691051902">
+    <state width="1116" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.left" timestamp="1603436626740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
-    <state width="592" height="178" key="GridCell.Tab.0.right" timestamp="1602691051902">
+    <state width="1116" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.right" timestamp="1603436626740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="592" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602691051902" />
+    <state width="1116" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.bottom" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.center" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.left" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.right" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
     <state x="617" y="90" key="RollbackChangesDialog" timestamp="1602731956496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -223,18 +244,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603003282762" />
-    <state x="360" y="122" key="Vcs.Push.Dialog.v2" timestamp="1602734293580">
+    <state x="330" y="189" key="Vcs.Push.Dialog.v2" timestamp="1603007472414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="122" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602734293580" />
+    <state x="330" y="189" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603007472414" />
     <state x="501" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603003228475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="501" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603003228475" />
-    <state x="845" y="122" width="810" height="490" key="dock-window-1" timestamp="1603007025733">
+    <state x="529" y="154" width="810" height="458" maximized="true" key="dock-window-1" timestamp="1603437118527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="845" y="122" width="810" height="490" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1603007025733" />
+    <state x="529" y="154" width="810" height="458" maximized="true" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1603437118527" />
     <state x="565" y="235" key="git4idea.merge.GitPullDialog" timestamp="1602734286341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -244,8 +265,19 @@
     </state>
     <state x="715" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603006582070" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Entity/Factorys.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TiaoBao$Goods.coverage" NAME="Goods Coverage Results" MODIFIED="1603004888723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
+    <SUITE FILE_PATH="coverage/TiaoBao$Goods.coverage" NAME="Goods Coverage Results" MODIFIED="1603436622488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
     <SUITE FILE_PATH="coverage/TiaoBao$Orders.coverage" NAME="Orders Coverage Results" MODIFIED="1602690145421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
   </component>
 </project>
