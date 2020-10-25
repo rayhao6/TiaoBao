@@ -1,5 +1,5 @@
 import datetime
-import Goods
+import Good
 import Customers
 
 
