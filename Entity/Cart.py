@@ -20,6 +20,7 @@ class Cart:
         total = 0
         for i in self.good:
             total += i.price
+        self.totalPrice = total
         return total
 
     def GetNum(self):
@@ -28,4 +29,6 @@ class Cart:
     def AddGood(self, theGood):
         self.good.append(theGood)
 
+
+cart = Cart()
 
