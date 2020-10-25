@@ -1,6 +1,6 @@
 import sys
 from CustomerService.OpCart import OpCart
-from Entity.Goods import Good
+from Entity.Good import Good
 from Entity.Cart import cart
 sys.path.append('..')
 
