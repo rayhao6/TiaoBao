@@ -1,5 +1,5 @@
 import datetime
-import Goods
+import Good
 def tid_maker():
     return '{0:%Y%m%d%H%M%S%f}'.format(datetime.datetime.now())
 
