@@ -1,0 +1,41 @@
+{% extends 'products/main.html' %}
+
+{% block 'headerTitle' %}
+Product Details
+{% endblock %}
+
+{% block 'body' %}
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th scope="row">Product Name</th>
+            <td>?</td>
+        </tr>
+        <tr>
+            <th scope="row">RAM</th>
+            <td>?</td>
+        </tr>
+        <tr>
+            <th scope="row">Size</th>
+            <td>Larry</td>
+
+        </tr>
+        <tr>
+            <th scope="row">Color</th>
+            <td>?</td>
+        </tr>
+        <tr>
+            <th scope="row">Cameras</th>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div class="text-right">
+    <a href="{% url 'Order:index' %}" type="button" class="btn btn-sm btn-warning">Order me now!</a>
+</div>
+
+
+{% endblock %}

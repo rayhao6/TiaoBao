@@ -1,0 +1,68 @@
+
+<!-- MENTION BASED TEMPLATE THAT WE WANT TO USE -->
+{% extends 'products/main.html' %}
+
+<!-- THIS PAGE HAVE STATIC FILE -->
+{% load static %}
+
+<!-- BLCOK: PAGE TITILE  -->
+{% block 'headerTitle' %}
+Product List
+{% endblock %}
+
+<!-- BLOCK: BODY -->
+{% block 'body' %}
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">   
+            <img class="card-img-top" src="{% static 'products/iphone12max.jpg' %}" alt="Product image" >           
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="{% url 'Product:detail' %}">iPhone 12 Max </a>
+                    <span class="badge badge-info">new</span>             
+                </h5>
+                <p class="card-text">
+                    New iPhone 12 Max, 8GB RAM, 128 HDD with special promotion.
+                </p>
+                <h6 class="card-subtitle badge text-danger">1000.00 USD</h6>
+                <div class="text-right">
+                    <a href="{% url 'Order:index' %}" type="button" class="btn btn-sm btn-warning">Order me now!</a>
+                </div>                
+            </div>          
+        </div>
+    </div>   
+    <div class="col-md-3">
+        <div class="card">   
+            <img class="card-img-top" src="{% static 'products/iphone12max.jpg' %}" alt="Product image" >           
+            <div class="card-body">
+                <h5 class="card-title">iPhone 12 Max <span class="badge badge-info">new</span></h5>
+                <p class="card-text">
+                    New iPhone 12 Max, 8GB RAM, 128 HDD with special promotion.
+                </p>
+                <h6 class="card-subtitle badge text-danger">1000.00 USD</h6>
+                <div class="text-right">
+                    <button type="button" class="btn btn-sm btn-warning">Order me now!</button>
+                </div>                
+            </div>          
+        </div>
+    </div>   
+    <div class="col-md-3">
+        <div class="card">   
+            <img class="card-img-top" src="{% static 'products/iphone12max.jpg' %}" alt="Product image" >           
+            <div class="card-body">
+                <h5 class="card-title">iPhone 12 Max <span class="badge badge-info">new</span></h5>
+                <p class="card-text">
+                    New iPhone 12 Max, 8GB RAM, 128 HDD with special promotion.
+                </p>
+                <h6 class="card-subtitle badge text-danger">1000.00 USD</h6>
+               
+                <div class="text-right">
+                    <button type="button" class="btn btn-sm btn-warning">Order me now!</button>
+                </div>                
+            </div>          
+        </div>
+    </div>   
+</div>
+
+{% endblock %}
