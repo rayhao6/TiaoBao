@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="&quot; absf function change&quot;">
+      <change afterPath="$PROJECT_DIR$/Experimental_report/2020软件架构理论实验报告2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental_report/2020软件架构理论实验报告2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hzynXVk5ujN1PkWV5psT3YD3XV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_tiaobao" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Goods">
+    <configuration name="Goods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TiaoBao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entity/Goods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Orders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TiaoBao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entity/Orders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Goods" />
+        <item itemvalue="Python.Orders" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9386f5-1045-44c7-8253-a11225b52195" name="Default Changelist" comment="" />
+      <created>1601028383037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601028383037</updated>
+      <workItem from="1601028384949" duration="1493000" />
+      <workItem from="1602669584787" duration="407000" />
+      <workItem from="1602675155278" duration="7380000" />
+      <workItem from="1602731951328" duration="1630000" />
+      <workItem from="1602749090157" duration="600000" />
+      <workItem from="1602819150383" duration="1260000" />
+      <workItem from="1602842332508" duration="6286000" />
+      <workItem from="1602917602443" duration="668000" />
+      <workItem from="1602985186710" duration="1948000" />
+      <workItem from="1602999309234" duration="5474000" />
+      <workItem from="1603436618874" duration="1382000" />
+      <workItem from="1603547264974" duration="2584000" />
+      <workItem from="1603630281175" duration="615000" />
+      <workItem from="1603882162948" duration="1167000" />
+      <workItem from="1604116241045" duration="599000" />
+      <workItem from="1605410280548" duration="739000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;add the most basic class&quot;">
+      <created>1602690921183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602690921184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;add some other classes&quot;">
+      <created>1602734279979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602734279979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;">
+      <created>1603007210648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603007210649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot; absf function change&quot;">
+      <created>1603550007183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603550007183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;add the most basic class&quot;" />
+    <MESSAGE value="&quot;add some other classes&quot;" />
+    <MESSAGE value="&quot;absFactory, but with 2 bugs, one is class instance has no parameter, the other is whether the adsFactory work and how does it work, what's the meaning of it&quot;" />
+    <MESSAGE value="&quot; absf function change&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot; absf function change&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1603550041254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1603550041254" />
+    <state x="621" y="201" key="FileChooserDialogImpl" timestamp="1605427383063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="621" y="201" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605427383063" />
+    <state width="1116" height="212" key="GridCell.Tab.0.bottom" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.center" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.left" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.0.right" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.bottom" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.center" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.left" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state width="1116" height="212" key="GridCell.Tab.1.right" timestamp="1603436626740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1116" height="212" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603436626740" />
+    <state x="617" y="90" key="RollbackChangesDialog" timestamp="1602731956496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="90" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602731956496" />
+    <state x="387" y="95" key="SettingsEditor" timestamp="1603003282762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="387" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603003282762" />
+    <state x="330" y="189" key="Vcs.Push.Dialog.v2" timestamp="1603550021981">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="330" y="189" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603550021981" />
+    <state x="501" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603549871779">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="501" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603549871779" />
+    <state x="529" y="154" width="810" height="458" maximized="true" key="dock-window-1" timestamp="1603437118527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="154" width="810" height="458" maximized="true" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1603437118527" />
+    <state x="565" y="235" key="git4idea.merge.GitPullDialog" timestamp="1602734286341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="235" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1602734286341" />
+    <state x="715" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1603006582070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="715" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603006582070" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Entity/Factorys.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TiaoBao$Goods.coverage" NAME="Goods Coverage Results" MODIFIED="1603436622488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
+    <SUITE FILE_PATH="coverage/TiaoBao$Orders.coverage" NAME="Orders Coverage Results" MODIFIED="1602690145421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entity" />
+  </component>
+</project>

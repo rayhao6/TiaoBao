@@ -1,0 +1,18 @@
+{% extends 'products/main.html' %}
+
+{% block 'headerTitle' %}
+Order Confirmation
+{% endblock %}
+
+{% block 'body' %}
+<div class="jumbotron">
+    <p class="lead">You are going to pay 1000.00 USD for</p>
+    <p class="lead">iPhone 12 Max, 8GM, 120GB</p>
+    <hr class="my-4">
+    <p>Please click on "Pay Now" button to continue your order.</p>
+    <p class="lead">
+        <a class="btn btn-danger btn-md" href="{% url 'Order:payment' %}" role="button">Pay Now</a>
+    </p>
+</div>
+
+{% endblock %}
